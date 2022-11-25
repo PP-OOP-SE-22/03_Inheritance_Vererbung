@@ -5,7 +5,7 @@ public class Cat extends SuperCat{
     private int counter;
 
     public Cat(String name, String furColor, int age) {
-       
+       super(name, furColor, age);
     }
 
     public String getAge() {
